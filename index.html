@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DI-PAN - Panadería y Pastelería</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    
+</head>
+<body>
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-bread-slice"></i> DI-PAN </a>
+
+        <nav class="navbar">
+            <a href="#home">Inicio</a>
+            <a href="#about">Conocenos</a>
+            <a href="#product">Productos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        
+
+        <div class="icons">
+            <div id="cart-btn" class="fas fa-shopping-cart"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
+    </header>
+
+
+
+
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide" style="background: url(img/fondo.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>Horneamos un mundo mejor</h3>
+                        <a href="#" class="btn">Empezar</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide" style="background: url(img/slider2.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>Horneamos un mundo mejor</h3>
+                        <a href="#" class="btn">Empezar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+   
+
+
+
+
+    
+    
+    
+
+    <div class="cart-items-container">
+        <div id="close-form" class="fas fa-times"></div>
+        <h3 class="title">DETALLES</h3>
+        <div id="cart-items"></div>
+        <div id="total-price"></div>
+        <button id="generate-invoice-btn" style="background-color: #007bff; color: #fff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Generar Factura</button>
+
+    </div>
+
+
+
+    
+    
+    
+
+    <section class="product" id="product">
+
+        <h1 class="heading">Nuestros <span> Panes</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/chocolare.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>PAN DE CHOCOLATE</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="price">$0.45</span>
+                    <a href="#" class="btn">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/Donas.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>ROSQUILLAS</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="price">$0.20</span>
+                    <a href="#" class="btn">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/Avena Polaca.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>AVENA POLACA</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span class="price">$0.75</span>
+                    <a href="#" class="btn">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/melvas.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>MELVAS</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="price">$0.25</span>
+                    <a href="#" class="btn">Agregar Al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/Enrollado.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>ENROLLADO</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span class="price">$0.15</span>
+                    <a href="#" class="btn">Agregar Al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/REDONDO.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>PAN REDONDO</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="price">$0.20</span>
+                    <a href="#" class="btn">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img/Bombones.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>BOLITAS DE CHOCOLATE</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="price">$0.18</span>
+                    <a href="#" class="btn">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/ROSQUITAS.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>ROSQUITAS</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="price">$0.20</span>
+                    <a href="#" class="btn">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/mojicones.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>MOJICONES</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="price">$0.20</span>
+                    <a href="#" class="btn">Agregar al carrito</a>
+                </div>
+            </div>
+         
+            <div class="pagination" id="pagination-buttons"></div>
+              
+
+        </div>
+
+    </section>
+
+
+    
+
+
+
+    <section class="about" id="about" style="padding: 2rem 7%;">
+
+        <h1 class="heading"> <span>CONOCENOS</h1>
+    
+        <div class="row" style="display: flex; align-items: center; flex-wrap: wrap; gap: 2rem;">
+    
+            <div class="image" style="flex: 1 1 40rem;">
+                <img src="img/about.png" alt="">
+            </div>
+    
+            <div class="content" style="flex: 1 1 40rem; text-align: left;">
+                <h3 style="color: var(--black); font-size: 3.5rem; line-height: 1.5;">
+                    Las buenas cosas vienen para aquellos <span style="color: var(--secondary);">que hornean</span> para otros
+                </h3>
+                <p style="font-size: 1.4rem; color: #444; padding: 1rem 0; line-height: 2;">
+                    En Di-Pan, nos apasiona hornear deliciosos panes y pasteles para nuestra comunidad. Con ingredientes frescos y recetas tradicionales, cada producto está hecho con amor y dedicación.
+                </p>
+                <p style="font-size: 1.4rem; color: #444; padding: 1rem 0; line-height: 2;">
+                    Nuestra panadería ofrece una amplia variedad de productos, desde pan recién horneado hasta exquisitos postres. Ven a visitarnos y descubre el sabor y la calidad que nos distingue.
+                </p>
+                <a href="#" class="btn" style="display: inline-block; padding: 1rem 3rem; font-size: 1.7rem; color: var(--white); border-radius: .5rem; background: var(--primary-color); box-shadow: var(--box-shadow); cursor: pointer; transition: opacity 0.3s ease;">leer más</a>
+            </div>
+            
+    
+        </div>
+    
+    </section>
+
+
+    <section style="padding: 2rem 7%;" class="offer">
+
+        <div class="heading">
+        </div>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="img/offer-1.png" alt="">
+                <h3>Variedad de postres</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum</p>
+            </div>
+
+            <div class="box">
+                <img src="img/offer-2.png" alt="">
+                <h3>variedad de cafes</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum</p>
+            </div>
+
+            <div class="box">
+                <img src="img/offer-3.png" alt="">
+                <h3>variedad de panes</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum</p>
+            </div>
+        </div>
+
+    </section>
+    
+    
+    
+    
+    
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Contacto</h3>
+                    <a style="font-size: 16px;" href="https://maps.app.goo.gl/K85LDK4qnVbHUZaw9" target="_blank">Dirección: Calle Principal, Ciudad</a>
+                    <p style="margin-top: 16px;">Teléfono: 0993081884</p>
+                    <p>Email: qymery1@gmail.com</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Panes</a></li>
+                        <li><a href="#">Servicios</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Síguenos</h3>
+                    <ul class="social-links">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer-column"> 
+                    <h3>Newsletter</h3>
+                    <p>Suscríbete a nuestro boletín informativo para recibir las últimas noticias y ofertas especiales:</p>
+                    <form action="#" class="newsletter-form">
+                        <input type="email" name="email" placeholder="Tu correo electrónico" required>
+                        <button type="submit">Suscribirse</button>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+        <script src="jspdf.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
